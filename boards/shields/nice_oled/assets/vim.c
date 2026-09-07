@@ -304,8 +304,8 @@ const lv_img_dsc_t vim = {
   .header.cf = LV_IMG_CF_INDEXED_1BIT,
   .header.always_zero = 0,
   .header.reserved = 0,
-  .header.w = 160,
-  .header.h = 68,
-  .data_size = 1368,
-  .data = vim_68x160_map,
+  .header.w = 128,
+  .header.h = 32,
+  .data_size = 520,
+  .data = vim_32x128_map,
 };
